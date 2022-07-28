@@ -17,9 +17,27 @@ Vim is rock stable and is continuously being developed to become even better. Am
 - command (:)
 - visual (v)
 
+## Setting up Vim Configuration File
+If you have like 20 settings, you  don't want to set them all the time every time you open Vim. So you want to have a settings file a  configuration file that does it for you. And for that you have the **VIM rc file**, which is located  at the user directory
+``` vi ~/.vimrc ```
+
+If the file is there, vim loads it, or VIM is going to open it. If it's not there,it will get created  in VIM and Vim is still going to load it. So we're going to open up the VIM rc file .Enter the insert mode and set the reqired settings and customize accordingly
+
+#### *This is just an example*
+```js
+set number
+set relativenumber
+set tabstop=3
+set autoindent
+set shiftwidth=4
+set mouse=a
+colorscheme slate
+```
+
 ## Documentation
 
 [Official Vim Documentation](https://www.vim.org/)
+
 
 
 
